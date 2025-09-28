@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio House Build</title>
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- favicon cdn -->
+    <link rel="shortcut icon" href="assets/Rectangle.png" type="image/x-icon">
+    <!-- fontawesome cdn -->
+    <script src="https://kit.fontawesome.com/d6c5b68401.js" crossorigin="anonymous"></script>
+    <!-- daisy UI & tailwind cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- customize script file -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        manropeFont: ["Manrope", "sans-serif"],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- css style tag -->
+    <style>
+        .manrope-Font {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manropeFont">
+    <header>
+        <!-- navbar start -->
+        <nav class="container mx-auto">
+            <!-- nav-element container -->
+            <div class="flex justify-between items-center mx-4">
+                <!-- logo roundbtn -->
+                <div class="flex gap-2 items-center">
+                    <button class="rounded-full bg-[#ABEF5F] px-3 py-[14px] -rotate-45"><i
+                            class="fa-solid fa-arrow-right fa-2xl"></i></button>
+                    <h2 class="text-4xl text-[#212121] font-extrabold">Rinterio</h2>
+                </div>
+                <!-- anchor div -->
+                <div class="hidden lg:block">
+                    <ul class="grid lg:grid-cols-3 xl:grid-cols-5 gap-3 place-items-center">
+                        <li><a class="text-xl font-extrabold text-[#494949]" href="">Home</a></li>
+                        <li><a class="text-xl font-normal text-[#737373]" href="">Services</a></li>
+                        <li><a class="text-xl font-normal text-[#737373]" href="">Portfolio</a></li>
+                        <li><a class="text-xl font-normal text-[#737373]" href="">Blogs</a></li>
+                        <li><a class="text-xl font-normal text-[#737373]" href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- navbar all button container -->
+                <div class="flex gap-4 items-center">
+                    <div class="hidden md:block">
+                        <button class="rounded-full bg-[#E9E9E9] p-3"><i
+                                class="fa-solid fa-magnifying-glass fa-xl"></i></button>
+                    </div>
+                    <div class="hidden md:block">
+                        <button class="rounded-full bg-[#E9E9E9] p-3"><i
+                                class="fa-solid fa-cart-shopping fa-lg"></i></button>
+                    </div>
+                    <div
+                        class="max-w-56 rounded-full bg-[#ABEF5F] border px-5 py-2 lg:py-3 text-xl font-extrabold text-[#1C1C1C] hidden md:block">
+                        Book
+                        Consult<button class="rounded-full bg-black text-white px-[11px] py-1 -rotate-45 ml-2"><i
+                                class="fa-solid fa-arrow-right fa-xs"></i></button></div>
+                    <div class="lg:hidden">
+                        <button class="rounded-full bg-[#E9E9E9] px-[13px] py-3"><i
+                                class="fa-solid fa-bars fa-xl"></i><button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+
+</html>
